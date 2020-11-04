@@ -29,7 +29,7 @@ flex-wrap: wrap;
     font-family: sans-serif;
 }
 #head1{
-    font-family: cursive;
+    font-family: poppins;
     font-size: 15px;
     width:70%;
     margin: 0;
@@ -45,7 +45,7 @@ flex-wrap: wrap;
     font-size: 24px;
 }
 #headd1{
-    font-family: cursive;
+    font-family: poppins;
     font-size: 15px;
 }
 #headd2{
@@ -53,7 +53,7 @@ flex-wrap: wrap;
     color: royalblue;
     font-size: 24px;
 }
-#contact-me{
-    font-family: sans-serif;
-    font-weight: lighter;
+#head4{
+    font-family: poppins;
+    font-size: 15px;
 }
