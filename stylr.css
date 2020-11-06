@@ -7,6 +7,8 @@ body{
     display: flex;
     align-items: flex-start;
     margin: 20px 0;
+   flex-wrap: wrap;
+   flex-basis: 100%;
 }
 .emoji{
     height: 30px;
@@ -16,8 +18,7 @@ body{
 .bae{
     height: 140px;
     margin: 0 20px;
-    flex-wrap: wrap;
-    width: 160px;
+    min-width: 160px;
 }
 .flag{
     width: 30px;
@@ -56,4 +57,15 @@ flex-wrap: wrap;
 #head4{
     font-family: poppins;
     font-size: 15px;
+}
+
+@media all and (max-width: 720px){
+    .bae{
+        min-width: 90%;
+        margin: 20px auto;
+    }
+
+    #head1{
+        width: 100%;
+    }
 }
