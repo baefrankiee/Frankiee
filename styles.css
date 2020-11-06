@@ -36,7 +36,6 @@ background-color:#e4f9f5;
 .bottom-container{
     background-color: #66bfbf;
     padding: 50px 0 20px;
-
 }
 .img1{
     width: 150px;
@@ -144,13 +143,11 @@ a:hover{
   font-size: 12px;
   padding: 20px 0;
 }
-.emoji{
-    height: 100px;
-    width: 100px;
-    flex-wrap: wrap;
-}
 .flag{
     width: 30px;
-    height: 20px;
-flex-wrap: wrap;
+    height: 30px;
+}
+.emoji{
+    height: 30px;
+    width: 30px;
 }
