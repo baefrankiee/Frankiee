@@ -144,3 +144,13 @@ a:hover{
   font-size: 12px;
   padding: 20px 0;
 }
+.emoji{
+    height: 100px;
+    width: 100px;
+    flex-wrap: wrap;
+}
+.flag{
+    width: 30px;
+    height: 20px;
+flex-wrap: wrap;
+}
