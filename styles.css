@@ -1,133 +1,124 @@
-body{
-    margin: 0;
-    text-align: center;
-    color: #40514e;
-    background-color:#e4f9f5;
-}
-h1{
-    color: #66bfbf;
-    font-size: 4.625rem;
-   font-family:  unset;
-   margin: 100px auto 100px;
-}
-h2{
-    color: #66bfbf;
- font-family: sans-serif ;
- font-size: 2.5rem;
- font-weight: normal;
- padding-bottom: 10px;
- text-align: center;
 
-}
-h3{
-    color: #11999e;
+*{
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
 }
-.top-cotainer{
-    background-color:#e4f9f5;
-    position: relative;
-    padding-top: 10px;
+.banner{
+width: 100%;
+height: 270vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(mountain.jpg);
+background-size: cover;
+background-position: center;
 }
-.middle-container{
-margin: 100px 0;
-background-color:#e4f9f5;
+.navbar{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-.bottom-container{
-    background-color: #66bfbf;
-    padding: 50px 0 20px;
-    width: 100%;
+.image{
+width: 170px;
+cursor: pointer;
 }
-.myprofile{
-    width: 350px;
-    height: 250px;
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
 }
-.world-img{
-    width: 25%;
-    float: right;
-    margin-right: 30px;
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
 }
-.welcome{
-    width: 500px;
-    height: 200px;
+.navbar ul li::after{
+    content: '';
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
 }
-#first-para{
-    color: #66bfbf;
-    font-size:2.623rem;
+.navbar ul li:hover::after{
+width: 100%;
 }
-.skill-row{
-    width: 80%;
-    margin: 100px auto 100px auto;
-    text-align: center;
+.content{
+width: 100%;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+color: #fff;
+height: 60%;
 }
-.skills-row{
-    width: 70%;
-    margin: 100px auto 100px auto;
-    text-align: left;
+.content h1{
+font-size: 80px;
+margin-top: 70px;
 }
-.introduction{
-    width: 50%;
-    margin: auto;
-    font-family: serif;
+.content p{
+margin: 20px auto;
+font-weight: 100;
+line-height: 30px;
+font-size: 17px;
 }
-p{
-    line-height: 2;
+button{
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid #009688;
+background: transparent;
+color: #fff;
+cursor: pointer;
+position: relative;
+overflow: hidden;
 }
-hr{
-    border: dotted #40514e 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+span{
+background:#009688;
+height: 100%;
+width: 0;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom:0;
+z-index: -1;
+transition: 0.5s;
 }
-.contact-msg{
-    width: 30%;
-    margin: 40px auto 60px;
+button:hover span{
+    width:100%
 }
-.btn{
-    background-color: #11cdd4;
-    border-radius: 8px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    background-image: -webkit-linear-gradient(top,#11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top,#11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top,#11cdd4, #11999e);
-    background-image: -o-linear-gradient(top,#11cdd4, #11999e);
-    background-image: linear-gradient(to bottom,top,#11cdd4, #11999e);
-    -webkit-border-radius: 8;
-    text-decoration: none;
-}
-.btn:hover{
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom,top, #30e3cb, #2bc4ad);
-    text-decoration: none;
-}
-a{
-    color: #11999e;
-    font-family: sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-a:hover{
-    color: #eaf6f6;
-}
-.copy{
-  color: #eaf6f6;
-  font-size: 12px;
-  padding: 20px 0;
+button:hover{
+border: none;
 }
 .flag{
     width: 30px;
     height: 30px;
 }
-.emoji{
-    height: 30px;
-    width: 30px;
+.content h2{
+    font-size: 60px;
+margin-top: 30px;
 }
-#heading{
-    font-family: unset;
+.paragraph2{
+    margin: 20px auto;
+font-weight: 100;
+line-height: 30px;
+font-size: 17px;
 }
+hr{
+    border: dotted #40514e 8px;
+    border-bottom: none;
+    width: 6%;
+    margin: 80px auto;
+}
+.copy{
+    color: #eaf6f6;
+    font-size: 12px;
+    padding: 20px 0;
+  }
